@@ -9,11 +9,11 @@ class Settings {
     public int $DB_PORT;
 
     public function __construct() {
-        $this->DB_TYPE = 'mariadb';
-        $this->DB_HOST = 'nihad';
+        $this->DB_TYPE = 'mysql';
+        $this->DB_HOST = '127.0.0.1';
         $this->DB_NAME = 'php-orm';
-        $this->DB_USER = 'root';
-        $this->DB_PASS = '';
+        $this->DB_USER = 'phpuser';
+        $this->DB_PASS = 'securepassword';
         $this->DB_PORT = 3306;
     }
 }
