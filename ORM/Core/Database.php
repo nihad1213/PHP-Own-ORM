@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Class to manage database connections using PDO.
+ */
+
 class Database {
     private PDO $connection;
 
