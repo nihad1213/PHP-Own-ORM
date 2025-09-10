@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Autoload function to load classes from specified directories. 
+ */
 spl_autoload_register(function ($className) {
     $fileName1 = __DIR__ . '/ORM/' . $className . '.php';
     
